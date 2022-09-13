@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- SITE META -->
+    <title>ACAM Portal</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+
+    <!-- FAVICONS -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+    <!-- Typography -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- BOOTSTRAP STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-tour-standalone.css" />
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+    <!-- COLORS -->
+    <link rel="stylesheet" type="text/css" href="css/colors.css">
+
+    <!-- CUSTOM STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    <!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+
+
+        <nav class="navbar navbar-expand topbar top-header navbar-light bg-white">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">
+                        <img src="images/logo.png" alt="Navitas" />
+                    </a>
+                    <!-- Sidebar Toggle (Topbar) -->
+                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+                        <i class="fa fa-bars"></i>
+                    </button>
+
+                </div>
+
+                <div class="right-navbar">
+                    <ul class="nav navbar-nav float-right user-nav align-items-center">
+                        <li class="topbar-divider d-none d-sm-block"></li>
+                        <li class="nav-item queries d-none d-sm-block">
+                            <a class="nav-link" id="sidebarCollapse" href="#">
+                                <i class="icon-block-custom header-icon-queries mr-3"></i> FAQs
+                            </a>
+                        </li>
+                        <li class="topbar-divider d-none d-sm-block"></li>
+
+                        <li class="nav-item email d-none d-sm-block">
+                            <a class="nav-link" href="#">
+                                <i class="icon-block-custom header-icon-email mr-3">
+                                    <span class="badge badge-top badge-counter">06</span>
+                                </i>Email
+                            </a>
+                        </li>
+                        <li class="topbar-divider d-none d-sm-block"></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button"
+                                aria-expanded="false">
+                                <span class="user-name">Adam
+                                    smith</span></a>
+                            <div class="dropdown-menu dropdown-menu-md-right" role="menu">
+                                <div class="user-info">
+                                    <div class="user-name">Adam Smith</div>
+                                    <!-- <div class="user-position online">Available</div> -->
+                                </div><a class="dropdown-item" href="#">Profile</a>
+                                <a class="dropdown-item" href="#">Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="main">
+
+            <!-- <ul class="sidebar-elements"> -->
+            <ul class="navbar-nav bg-gradient-primary sidebar sidebar1 sidebar-dark accordion" id="accordionSidebar">
+
+                <!-- Nav Item - Pages Collapse Menu -->
+                <li class="nav-item">
+                    <span class="nav-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+                        aria-controls="collapseTwo">
+                        <a href="index.html" class="custom-link"><i class="icon-block home-icon"></i>
+                            <span>Home</span></a>
+                    </span>
+                    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo"
+                        data-parent="#accordionSidebar">
+                        <div class="py-2 collapse-inner">
+                            <a class="collapse-item active" href="my-class-space.html">My Class Space</a>
+                            <a class="collapse-item" href="#">Library</a>
+                            <a class="collapse-item" href="#">Time Table</a>
+                            <a class="collapse-item" href="#">Student Activity Centre</a>
+                        </div>
+                    </div>
+                </li>
+
+                <!-- Nav Item - Utilities Collapse Menu -->
+                <li class="nav-item">
+                    <span class="nav-link collapsed" data-toggle="collapse" data-target="#collapseUtilities"
+                        aria-expanded="true" aria-controls="collapseUtilities">
+                        <a class="custom-link" href="#"><i class="icon-block account-icon"></i>
+                            <span>Accounts and Admin</span></a>
+                    </span>
+                    <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+                        data-parent="#accordionSidebar">
+                        <div class="py-2 collapse-inner">
+                            <a class="collapse-item" href="#">Lorem ipsum1</a>
+                            <a class="collapse-item" href="#">Lorem ipsum2</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="icon-block time-table-icon"></i>
+                        <span>Time Table</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="icon-block enrolment-icon"></i>
+                        <span>Enrolments</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- </ul> -->
+
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="bread-crumbs">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">My Class Space</li>
+                                    </ol>
+                                </nav>
+                            </div>
+
+                            <div class="d-flex" id="">
+                                <h4 class="heading mr-auto">My Class Space</h4>
+                            </div>
+
+                            <div class="custom-table mt-4">
+                                <table class="table table-striped" style="background-color: #FFFFFF;">
+                                    <thead class="custom-thead" style="background-color: #3A3A3A; color: #F2F2F2;">
+                                        <tr>
+                                            <td scope="col">Unit ID</td>
+                                            <td scope="col">Unit Name</td>
+                                            <td scope="col">Educator</td>
+                                            <td scope="col">Start date</td>
+                                            <td scope="col">End date</td>
+                                            <td scope="col">Status</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="small-text">
+                                        <tr>
+                                            <td scope="row">0521</td>
+                                            <td><a href="#" class="unit-name-link">Business Growth Straregies Business Growth Straregies</a></td>
+                                            <td class="d-flex"> Albert John <div class="dropdown dropleft"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span
+                                                    class="count-plus">+2</span></a>
+                                                    <div class="dropdown-menu">
+                                                        <a href="#" class="dropdown-item">Jacob</a>
+                                                        <a href="#" class="dropdown-item">Lisa</a>
+                                                    </div>
+                                                </div></td>
+                                            <td>23/04/2021</td>
+                                            <td>23/04/2021</td>
+                                            <td><span class="badge-custom complete-bg">Completed</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">0522</td>
+                                            <td><span class="ml-2 show" data-toggle="tooltip" data-placement="top" title="Share">Leadership…</span></td>
+                                            <td><span>Jacob</span></td>
+                                            <td>23/04/2021</td>
+                                            <td>23/04/2021</td>
+                                            <td><span class="badge-custom complete-bg">Completed</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">0523</td>
+                                            <td><a href="#" class="unit-name-link">Engagement and…</a></td>
+                                            <td><span>Albert John</span></td>
+                                            <td>23/04/2021</td>
+                                            <td>23/04/2021</td>
+                                            <td><span class="badge-custom progress-bg">In Progress</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">0524</td>
+                                            <td><a href="#" class="unit-name-link">Enterprise and…</a></td>
+                                            <td><span>Albert John</span></td>
+                                            <td>23/04/2021</td>
+                                            <td>23/04/2021</td>
+                                            <td><span class="badge-custom upcoming-bg">Upcoming</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">0525</td>
+                                            <td><span class="ml-2 show" data-toggle="tooltip" data-placement="top" title="Share">Business Growth Straregies</span></td>
+                                            <td><span>Albert John</span></td>
+                                            <td>23/04/2021</td>
+                                            <td>23/04/2021</td>
+                                            <td><span class="badge-custom complete-bg">Completed</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">0526</td>
+                                            <td>Leadership Mana…</a></td>
+                                            <td class="d-flex"> Albert John <div class="dropdown dropleft"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span
+                                                class="count-plus">+2</span></a>
+                                                <div class="dropdown-menu">
+                                                    <a href="#" class="dropdown-item">Jacob</a>
+                                                    <a href="#" class="dropdown-item">Lisa</a>
+                                                </div>
+                                            </div></td>
+                                            <td>23/04/2021</td>
+                                            <td>23/04/2021</td>
+                                            <td><span class="badge-custom complete-bg">Completed</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td scope="row">0527</td>
+                                            <td>Engagement and…</td>
+                                            <td class="d-flex"> Albert John <div class="dropdown dropleft"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span
+                                                class="count-plus">+2</span></a>
+                                                <div class="dropdown-menu">
+                                                    <a href="#" class="dropdown-item">Jacob</a>
+                                                    <a href="#" class="dropdown-item">Lisa</a>
+                                                </div>
+                                            </div></td>
+                                            <td>23/04/2021</td>
+                                            <td>23/04/2021</td>
+                                            <td><span class="badge-custom progress-bg">In Progress</span></td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Right side panel -->
+            <div id="sidebar">
+                <ul class="navbar-nav animate">
+                    <div class="help-block card">
+                        <div class="how-can-block">
+                            <h5 class="pt-3 pb-3 accordion-title">
+                                <span class="d-flex align-items-center">
+                                    <i class="icon-block header-icon-queries mr-3"></i>
+                                    <span>FAQs</span>
+                                </span>
+                                <a href="#" class="close-icon">
+                                    <span>
+                                        <img id="dismiss" src="images/cross.svg" alt="Dismiss">
+                                    </span>
+                                </a>
+                            </h5>
+
+                            <div class="faq-block">
+                                <div class="accordion" id="accordionfaq">
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="headingFaqOne">
+                                            <h6 class="text-left" type="button" data-toggle="collapse"
+                                                data-target="#faqCollapseOne" aria-expanded="true"
+                                                aria-controls="faqCollapseOne">
+                                                Can I submit assignments that are not ‘Essays’
+                                            </h6>
+                                        </div>
+
+                                        <div id="faqCollapseOne" class="accordion-cont collapse show"
+                                            aria-labelledby="faqOne" data-parent="#accordionfaq">
+                                            <p>
+                                                Yes, the service is suited to all written assignments of a long
+                                                nature. These do not need to be essays. For example case studies,
+                                                long answer questions, and reports are also suitable.
+                                                <a href="#">See more</a>
+                                            </p>
+                                            <div class="video-section embed-responsive embed-responsive-16by9">
+                                                <iframe width="420" height="315"
+													src="https://www.youtube.com/embed/tgbNymZ7vqY" allowfullscreen>
+												</iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="headingFaqTwo">
+                                            <h6 class="mb-0 text-left collapsed" type="button" data-toggle="collapse"
+                                                data-target="#faqCollapseTwo" aria-expanded="false"
+                                                aria-controls="faqCollapseTwo">
+                                                Collapsible Group Item #2
+
+                                            </h6>
+                                        </div>
+                                        <div id="faqCollapseTwo" class="accordion-cont collapse"
+                                            aria-labelledby="headingFaqTwo" data-parent="#accordionfaq">
+                                            <p>
+                                                Some placeholder content for the second accordion panel. This panel
+                                                is hidden by default.
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="headingFaqThree">
+                                            <h6 class="mb-0 text-left collapsed" type="button" data-toggle="collapse"
+                                                data-target="#faqCollapseThree" aria-expanded="false"
+                                                aria-controls="faqCollapseThree">
+                                                Collapsible Group Item #3
+
+                                            </h6>
+                                        </div>
+                                        <div id="faqCollapseThree" class="accordion-cont collapse"
+                                            aria-labelledby="headingFaqThree" data-parent="#accordionfaq">
+                                            <p>
+                                                And lastly, the placeholder content for the third and final
+                                                accordion panel. This panel is hidden by default.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="overlay"></div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-tour-standalone.js"></script>
+<script src="js/custom.js"></script>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+        $("#sidebar, .sidebar1").mCustomScrollbar({
+            theme: "minimal"
+        });
+
+        $('#dismiss, .overlay').on('click', function () {
+            // hide sidebar
+            $('#sidebar').removeClass('active');
+            // hide overlay
+            $('.overlay').removeClass('active');
+        });
+
+        $('#sidebarCollapse').on('click', function () {
+            // open sidebar
+            $('#sidebar').addClass('active');
+            // fade in the overlay
+            $('.overlay').addClass('active');
+            $('.collapse.in').toggleClass('in');
+            $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+        });
+    });
+</script>
+
+</html>

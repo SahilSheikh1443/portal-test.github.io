@@ -1,0 +1,117 @@
+.custom-form{
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+}
+
+.custom-form form{
+  margin: 0;
+}
+.custom-form form label{
+  font-size: 16px;
+  color: #999999;
+  
+}
+.custom-form form .form-group{
+  display: flex;
+  align-items: center;
+}
+.custom-form form .form-group.w-300{
+  width: 368px;
+}
+.custom-form form label.side-by-side{
+  margin: 0 10px 0 0;
+}
+
+.custom-form form input, .custom-form form select, .custom-form form input[type="file"], .custom-form form textarea{
+    background: transparent;
+    outline: none;
+    border: none;
+    display: block;
+    padding: 10px 0;
+    width: 100%;
+    border-bottom: 1px solid #666666;
+    color: #3a3a3a;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.custom-form form select{
+    font-size: 18px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(../images/select-drop-icon.svg);
+    background-repeat: no-repeat;
+    background-position: right 0 bottom;
+    background-size: 16px 16px;
+    font-weight: 500;
+}
+.custom-form form textarea{
+  height: 100px;
+  border-radius: 6px;
+  border: 1px solid #666666;
+  padding: 10px;
+}
+.custom-form form select option{
+  font-size: 14px;
+}
+.custom-form form select:focus{
+  border-color: #00a99d;
+}
+
+/*Contact form*/
+.contact-form{
+  max-width: 520px;
+}
+
+.contact-form form label{
+  margin: 0;
+}
+
+.contact-form form input, .contact-form form select, .contact-form form textarea{
+  margin-bottom: 15px;
+}
+
+.contact-form form select{
+  font-weight: normal !important;
+  font-size: 16px;
+}
+.contact-form form textarea{
+  resize: none;
+}
+
+.js-form-managed-file{
+  position: relative;
+}
+
+.contact-form div#edit-attachment .webform-file-button {
+  position: absolute;
+  right: 0;
+  margin-top: 4px;
+  background: #DDDDDD;
+  border-radius: 6px;
+  color: #3a3a3a;
+  padding: 10px 15px;
+}
+.contact-form input[type="submit"]{
+  background: #00A99D;
+  border-radius: 6px;
+  color: #ffffff;
+  border: none;
+  text-transform: uppercase;
+}
+
+.validation-block{
+  max-width: 520px;
+}
+
+.validation-block .alert{
+  opacity: 0;
+  display: none;
+}
+
+.validation-block .alert.fade.show{
+  opacity: 1;
+  display: block;
+}
+

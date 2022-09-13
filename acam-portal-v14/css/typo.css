@@ -1,0 +1,91 @@
+
+
+/******************************************
+    Typography
+******************************************/
+
+@import url(../fonts/roboto-bold-condensed.css);
+
+/* h1-h4 */
+
+h1, h2, h3, h4{
+    font-family:"Roboto Bold Condensed";
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 36px;
+}
+h4{
+    font-size: 24px;
+}
+/* h5-h6-p-label */
+
+h5, h6, p, label{
+    font-family: 'Roboto', sans-serif;
+}
+h5{
+    font-size: 18px;
+    font-weight: 400;
+}
+h6{
+    font-size: 16px;
+}
+p{
+    font-size: 16px;
+}
+label, .small-text{
+    font-size: 12px;
+}
+
+/* Midnight blue */
+.mid-blue-color-text{
+    color: #001428;
+}
+.mid-blue-bg{
+    background-color: #001428;
+}
+
+/* Teal */
+.teal-color-text{
+    color: #00A99D;
+}
+.teal-bg{
+    background-color: #00A99D !important;
+}
+
+
+/* Orange */
+.orange-color-text{
+    color: #FF6633;
+}
+.orange-bg{
+    background-color: #FF6633 !important;
+}
+
+
+/* Black */
+.black-color-text{
+    color:#191919;
+}
+
+/* Dark Grey */
+.dark-grey-text-color{
+   color: #3A3A31;
+}
+
+
+/* Light Grey */
+.light-grey-text-color{
+    color: #F2F2F2;
+
+}
+
+/* mid-grey */
+.mid-grey-text-color{
+    color: #999999;
+}
